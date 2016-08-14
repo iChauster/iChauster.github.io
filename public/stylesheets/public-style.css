@@ -409,6 +409,9 @@ ul{
 	.grid-item{
 		width:45%;
 	}
+	#projectsLabel{
+		font-size:2em;
+	}
 
 }
 

@@ -1,15 +1,19 @@
 $(document).ready(function () {
 
         // you want to enable the pointer events only on click;
-
+        var screensize = $(window).width()
         $('#about').hover(function(){
-        	$(".flip").css('background','url("public/images/rain.gif") no-repeat transparent 0% 0%')
+            if(screensize > 768){
+        	   $(".flip").css('background','url("public/images/rain.gif") no-repeat transparent 0% 0%')
+            }
         }, function(){
         	$('.flip').css('background','black')
         });
         $('#projects').hover(function(){
-        	$(".flip").css('background','url("public/images/thingy.gif") no-repeat transparent 0% 0%')
-        	$(".flip").css('background-position','center center')
+            if(screensize > 768){
+        	   $(".flip").css('background','url("public/images/thingy.gif") no-repeat transparent 0% 0%')
+        	   $(".flip").css('background-position','center center')
+            }
         }, function(){
         	$(".flip").css('background','black')
         });
