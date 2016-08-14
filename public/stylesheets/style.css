@@ -386,6 +386,10 @@ ul{
 		background: white;
 		-webkit-background-clip:text;
 	}
+	.brand:hover{
+		background: white;
+		-webkit-background-clip:text;
+	}
 
 }
 
