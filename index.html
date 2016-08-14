@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>iChauster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet" type="text/css">
+    <script src="javascripts/jquery-3.1.0.min.js"></script>
+    <script src="javascripts/rip.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="http://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+  </head>
+  <body id="home">
+    <div class="container">
+      <div class="header">
+        <div class="nav">
+          <h1 class="name"><a id="noline" href="/" class="raise">Ivan Chau</a></h1>
+          <ul id="primary-nav" class="nav">
+            <li class="raise"> <a id="about" data-toggle="modal" data-target="#aboutModal">about</a></li>
+            <li class="raise"> <a id="projects" data-toggle="modal" data-target="#projectsModal">projects</a></li>
+            <li class="raise"> <a id="contact" href="mailto:ivanmchau@gmail.com">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="flip">
+      <div class="mask text-vertical-center">
+        <div class="brand">
+          <h1>I</h1>
+          <h1>V</h1>
+          <h1>A</h1>
+          <h1>N</h1>
+          <h1 class="hid"><img id="p" src="/images/dot.gif" style="width:25px; height: 25px; margin-left:-5px"></h1>
+          <div class="graph">
+            <div class="hidden">
+              <ul class="list-inline">
+                <li class="raise"><a href="https://twitter.com/iChauster" class="link"><i id="twitter" class="fa fa-fw fa-twitter"></i></a></li>
+                <li class="raise"><a href="https://www.facebook.com/ichauster" class="link"><i id="facebook" class="fa fa-fw fa-facebook"></i></a></li>
+                <li class="raise"><a href="https://www.instagram.com/ichauster/" class="link"><i id="instagram" class="fa fa-fw fa-instagram"></i></a></li>
+                <li class="raise"><a href="https://www.linkedin.com/in/ivan-chau-820187ba" class="link"><i id="linkedin" class="fa fa-fw fa-linkedin"></i></a></li>
+                <li class="raise"><a href="https://github.com/iChauster" class="link"><i id="github" class="fa fa-fw fa-github"></i></a></li>
+              </ul><img src="http://66.media.tumblr.com/420da2743a4d39d79f34cba0b99118df/tumblr_inline_n93000kv711qj9aka.jpg" style="width:100%; height:50px; margin-bottom:0">
+            </div>
+          </div>
+          <h1>C</h1>
+          <h1>H</h1>
+          <h1>A</h1>
+          <h1>U</h1>
+        </div>
+      </div>
+    </div>
+    <div id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" class="modal fade">
+      <div role="document" class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
+            <h4 id="aboutLabel" class="modal-title">About Ivan</h4>
+          </div>
+          <div id="text" class="modal-body">
+            <h5>Hey There, I'm Ivan Chau. </h5>
+            <h6>I'm a rising sophomore at Montgomery High School, New Jersey, and I'm extremely interested and passionate about Computer Science. I love developing apps and products for others to use, and, more importantly, making an impact on the society I live in.</h6>
+            <h6>I've worked with iOS Development (Swift & Obj-C), Web Development in (NodeJS, Express, Jade, CSS, HTML), and also work with databases (MongoDB). I'm eager to learn more to make better and greater things!</h6>
+            <h6>Much of my time is focused on spreading my love for Computer Science with peers and students. I'm on my school's Computer Science Club, and am currently proposing our first annual Hackathon, <a href="http://montyhacks.herokuapp.com">MontyHacks. </a>I highly subscribe to the idea that one of the best ways to learn things is through using and experimenting with them.</h6>
+            <h6>Aside from my time spent developing apps, I'm an avid Ultimate Frisbee player, <a href="http://play.usaultimate.org/teams/events/Eventteam/?T=P&amp;TeamId=DfkqNxBOdirU9V0mV%2fHAck9T7DayPo%2bEeV1fwhGHFog%3d">(Come Support Us!) </a>and listen to lots of music. (Daft Punk, Porter Robinson, Madeon, Dillon Francis, and Kanye West are some among my favorites.)</h6>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projectsModal" tabindex="-1" role="dialog" aria-labelledby="projectsModalLabel" class="modal fade">
+      <div role="document" id="fullDialog" class="modal-dialog">
+        <button id="projectsClose" type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
+        <h1 id="projectsLabel" class="modal-title">What I've Been Working On :</h1>
+        <div class="container">
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            <div class="gutter-sizer"></div>
+            <div class="grid-item"><a id="gradecheck" href="http://github.com/ichauster/gradecheck">
+                <h5 class="inherit">GradeCheck</h5></a></div>
+            <div class="grid-item"><a id="mobilepassport" href="http://github.com/dzt/mobilepassport">
+                <h5 class="inherit">MobilePassport</h5></a></div>
+            <div class="grid-item"><a id="twitterstats" href="http://twitter-statistics.herokuapp.com/">
+                <h5 class="inherit">Twitter-Stats</h5></a></div>
+            <div class="grid-item"><a id="goalr" href="http://goalr.herokuapp.com/">
+                <h5 class="inherit">Goalr</h5></a></div>
+            <div class="grid-item"><a id="soundmeow" href="http://soundmeow.herokuapp.com/">
+                <h5 class="inherit">Soundmeow</h5></a></div>
+            <div class="grid-item"><a id="montyhacks" href="http://montyhacks.herokuapp.com">
+                <h5 class="inherit">Montyhacks</h5></a></div>
+          </div>
+        </div>
+        <div class="row">
+          <button type="button" data-dismiss="modal" class="btn-outline">
+            <div id="close">Close</div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
