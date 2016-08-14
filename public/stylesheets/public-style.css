@@ -255,7 +255,7 @@ ul{
 }
 #projectsClose{
 	color:white;
-	padding:1em;
+	padding:1em 1em 0 0;
 	opacity: 1;
 	font-size:30px;
 }
