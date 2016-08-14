@@ -198,6 +198,7 @@ ul{
   -moz-transition:all 2s ease-in-out;
   -o-transition:all 2s ease-in-out;
   transition :all 2s ease-in-out;
+  -webkit-transform: translateZ(0);
 }
 .raise{
 	bottom:0;
@@ -206,6 +207,7 @@ ul{
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    -webkit-transform: translateZ(0);
     position: relative;
 }
 #dropdead{
