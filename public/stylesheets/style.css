@@ -129,7 +129,7 @@ h1:hover{
 	height:200px;
 }
 .mask{
-  background: url(http://31.media.tumblr.com/4e125d6f394b29e483f97d6395afea2a/tumblr_mskxbd5Ypb1qhtsbwo1_500.gif);
+  background: url(/images/porter.gif);
   background-attachment: fixed;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -147,7 +147,7 @@ ul{
 	padding-top:10px;
 }
 .brand:hover{
-	background: url("http://i.giphy.com/oSYflamt3IEjm.gif");
+	background: url(/images/daftpunk.gif);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 }
