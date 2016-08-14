@@ -121,6 +121,10 @@ h1:hover{
   	-o-transition:all 2s ease-in-out;
   	transition :all 2s ease-in-out;
   	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
 }
 .hid{
 	height:30px;
@@ -199,6 +203,10 @@ ul{
   -o-transition:all 2s ease-in-out;
   transition :all 2s ease-in-out;
   -webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
 
 }
 .raise{
@@ -209,6 +217,10 @@ ul{
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     -webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
     position: relative;
 }
 #dropdead{
@@ -223,6 +235,10 @@ ul{
 }
 #twitter, #facebook, #instagram, #linkedin, #github,#list,#space{
 	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
 
 }
 #twitter:hover{
