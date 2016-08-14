@@ -371,13 +371,20 @@ ul{
 		text-align: center;
 	}
 	#primary-nav{
-
 		float:none;
 		width:100%;
 		text-align: center;
 	}
 	#twitter, #facebook, #instagram, #linkedin, #github{
-		font-size: .75em;
+		font-size: .6em;
+	}
+	#projectsModal h5{
+		font-size:0.9em;
+		letter-spacing: 0.1em;
+	}
+	.mask{
+		background: white;
+		-webkit-background-clip:text;
 	}
 
 }
