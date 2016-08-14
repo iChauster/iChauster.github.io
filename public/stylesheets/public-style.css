@@ -198,7 +198,7 @@ ul{
   -moz-transition:all 2s ease-in-out;
   -o-transition:all 2s ease-in-out;
   transition :all 2s ease-in-out;
-  -webkit-transform: translateZ(0);
+  -webkit-transform: translate3d(5px,5px,5px);
 }
 .raise{
 	bottom:0;
@@ -219,6 +219,10 @@ ul{
 .raise:hover{
 	bottom:10px;
 	padding-top:-10px;
+}
+#twitter, #facebook, #instagram, #linkedin, #github,#list,#space{
+	-webkit-transform: translateZ(0);
+
 }
 #twitter:hover{
 	-webkit-text-fill-color: #00aced;
@@ -301,6 +305,7 @@ ul{
   	-o-transition:all 1s ease-in-out;
  	 transition :all 1s ease-in-out;
 }
+
 #gradecheck:hover{
 	color:green;
 }
@@ -364,7 +369,56 @@ ul{
         height: 100%
     }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 400px){
+	.header{
+		padding:.75em;
+	}
+	.brand h1{
+		font-size:19px;
+	}
+	.name{
+		float:none;
+		width:100%;
+		text-align: center;
+	}
+	#primary-nav{
+		float:none;
+		width:100%;
+		text-align: center;
+	}
+	#twitter, #facebook, #instagram, #linkedin, #github{
+		font-size: .6em;
+	}
+	#projectsModal h5{
+		font-size:0.9em;
+		letter-spacing: 0.1em;
+	}
+	.mask{
+		background:white;
+		-webkit-background-clip:text;
+	}
+	.brand:hover{
+		background: white;
+		-webkit-background-clip:text;
+	}
+	#fullDialog{
+		margin:0;
+	}
+	.grid-sizer{
+		width:45%;
+	}
+	.gutter-sizer{
+		width:10%;
+	}
+	.grid-item{
+		width:45%;
+	}
+	#projectsLabel{
+		font-size:2em;
+	}
+
+}
+@media only screen and (max-width: 768px) and (min-width: 400px){
 	.header{
 		padding:1.25em;
 	}
