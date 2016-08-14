@@ -198,7 +198,8 @@ ul{
   -moz-transition:all 2s ease-in-out;
   -o-transition:all 2s ease-in-out;
   transition :all 2s ease-in-out;
-  -webkit-transform: translate3d(5px,5px,5px);
+  -webkit-transform: translateZ(0);
+
 }
 .raise{
 	bottom:0;
