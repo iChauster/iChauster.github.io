@@ -394,17 +394,17 @@ ul{
 	.brand h1{
 		font-size:0.5em;
 	}
+	#fullDialog{
+		margin:0;
+	}
 	.grid-sizer{
 		width:45%;
 	}
 	.gutter-sizer{
-		width:5%;
+		width:10%;
 	}
 	.grid-item{
 		width:45%;
-	}
-	#row{
-		margin-right: 8px;
 	}
 
 }
