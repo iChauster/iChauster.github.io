@@ -31,7 +31,7 @@ $(document).ready(function () {
         		$('.graph').attr('class','graph')
         		$('.graph').attr('id', 'coll')
         		$('.hidden').attr('class','revealed')
-        		$('.revealed').attr('id','awake')
+                setTimeout(function(){$('.revealed').attr('id','awake')}, 240);
         	}
         });
         $('#projectsModal').on('shown.bs.modal', function (e) {

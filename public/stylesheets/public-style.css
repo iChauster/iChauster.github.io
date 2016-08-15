@@ -3,6 +3,7 @@ html,body {
 	width: 100%;
 	background: black;
 	position: relative;
+	overflow: auto;
 }
 #text{
 	text-align: center;
@@ -183,21 +184,7 @@ ul{
 }
 .revealed{
 	height: 100%;
-	-moz-animation-name: rev;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-timing-function: ease-out;
-    -moz-animation-duration: 3s;
-
-    -webkit-animation-name: rev;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: ease-out;
-    -webkit-animation-duration: 3s;
-
-    animation-name: rev;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-duration: 2s;
-
+	opacity:0;
    -webkit-transition: all 2s ease-in-out;
   -moz-transition:all 2s ease-in-out;
   -o-transition:all 2s ease-in-out;
@@ -359,32 +346,6 @@ ul{
 	font-family:"Pathway Gothic One", sans-serif;
 	-webkit-font-smoothing:antialiased;
 	text-transform: uppercase;
-}
-@-moz-keyframes rev {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@-webkit-keyframes rev {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@keyframes rev {
-    0% {
-        opacity: 0;
-        height: 0%;
-    }
-    100% {
-        opacity: 1;
-        height: 100%
-    }
 }
 @media only screen and (max-width: 400px){
 	.header{
