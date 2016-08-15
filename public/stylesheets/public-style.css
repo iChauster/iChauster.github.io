@@ -127,6 +127,9 @@ h1:hover{
 	-o-transform: translateZ(0);
 	transform: translateZ(0);
 }
+#linline{
+	margin-left:1px;
+}
 .hid{
 	height:30px;
 	margin: 0;
