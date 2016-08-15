@@ -121,11 +121,6 @@ h1:hover{
   	-moz-transition:all 2s ease-in-out;
   	-o-transition:all 2s ease-in-out;
   	transition :all 2s ease-in-out;
-  	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
-	transform: translateZ(0);
 }
 #linline{
 	margin-left:1px;
@@ -197,6 +192,8 @@ ul{
 	-ms-transform: translateZ(0);
 	-o-transform: translateZ(0);
 	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
 
 }
 .raise{
@@ -206,11 +203,6 @@ ul{
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
-	transform: translateZ(0);
     position: relative;
 }
 #dropdead{
@@ -229,6 +221,8 @@ ul{
 	-ms-transform: translateZ(0);
 	-o-transform: translateZ(0);
 	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
 
 }
 #twitter:hover{
