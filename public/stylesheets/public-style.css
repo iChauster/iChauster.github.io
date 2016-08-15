@@ -194,7 +194,8 @@ ul{
 	transform: translateZ(0);
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
-
+	backface-visibility: hidden;
+	perspective: 1000;
 }
 .raise{
 	bottom:0;
@@ -223,6 +224,8 @@ ul{
 	transform: translateZ(0);
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
+	backface-visibility: hidden;
+	perspective: 1000;
 
 }
 #twitter:hover{
