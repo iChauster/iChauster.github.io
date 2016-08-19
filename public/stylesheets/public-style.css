@@ -121,6 +121,11 @@ h1:hover{
   	-moz-transition:all 2s ease-in-out;
   	-o-transition:all 2s ease-in-out;
   	transition :all 2s ease-in-out;
+  	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
 }
 #linline{
 	margin-left:1px;
@@ -216,7 +221,7 @@ ul{
 	bottom:10px;
 	padding-top:-10px;
 }
-#twitter, #facebook, #instagram, #linkedin, #github,#list,#space{
+#twitter, #facebook, #instagram, #linkedin, #github,#list,#space, #snapchat{
 	-webkit-transform: translateZ(0);
 	-moz-transform: translateZ(0);
 	-ms-transform: translateZ(0);
@@ -244,6 +249,9 @@ ul{
 }
 #github:hover{
 	-webkit-text-fill-color:#18392b;
+}
+#snapchat:hover{
+	-webkit-text-fill-color:#FFFC00;
 }
 #projectsModal{
 	background-color:#3e3e3e;
@@ -364,7 +372,7 @@ ul{
 		width:100%;
 		text-align: center;
 	}
-	#twitter, #facebook, #instagram, #linkedin, #github{
+	#twitter, #facebook, #instagram, #linkedin, #github, #snapchat{
 		font-size: .6em;
 	}
 	#projectsModal h5{
@@ -411,7 +419,7 @@ ul{
 		width:100%;
 		text-align: center;
 	}
-	#twitter, #facebook, #instagram, #linkedin, #github{
+	#twitter, #facebook, #instagram, #linkedin, #github, #snapchat{
 		font-size: .6em;
 	}
 	#projectsModal h5{
