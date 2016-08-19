@@ -22,11 +22,17 @@ $(document).ready(function () {
         }, function(){
         	$(".flip").css('background','black')
         });
+        var time;
+        if(screensize > 768){
+            time = 2000;
+        }else{
+            time = 1000;
+        }
         $('#p').on('click', function(){
         	if($('.graph').attr('id') == "coll"){
         		$('.graph').attr('id','nothing')
         		$('.revealed').attr('id','dropdead');
-        		setTimeout(function(){ $('.revealed').attr('class','hidden') }, 2000);
+        		setTimeout(function(){ $('.revealed').attr('class','hidden') }, time);
         	}else{
         		$('.graph').attr('class','graph')
         		$('.graph').attr('id', 'coll')
