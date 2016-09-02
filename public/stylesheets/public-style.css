@@ -303,12 +303,43 @@ ul{
 	width:100%;
 	display:block;
 	-webkit-font-smoothing: antialiased;
+	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition:all 1s ease-in-out;
+  	-o-transition:all 1s ease-in-out;
+ 	 transition :all 1s ease-in-out;
 }
 .inherit{
+	opacity: 1;
 	color:inherit;
 }
 #fullDialog{
 	width:100%;
+}
+.projectDesc{
+	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition:all 1s ease-in-out;
+  	-o-transition:all 1s ease-in-out;
+ 	 transition :all 1s ease-in-out;
+ 	 width:0%;
+ 	 height:100%;
+}
+.projectDesc h6{
+	padding:10px;
+	font-family: Roboto Mono;
+	font-size:1em;
+	margin:0;
+	display: none;
+	color:black;
+	opacity:0;
+	letter-spacing: normal;
+	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition:all 1s ease-in-out;
+  	-o-transition:all 1s ease-in-out;
+ 	transition :all 1s ease-in-out;
+}
+.projectDesc hr{
+	width:50%;
+	border-color:black;
 }
 #gradecheck, #mobilepassport, #twitterstats, #goalr, #soundmeow, #montyhacks{
 	color:white;
@@ -323,7 +354,7 @@ ul{
 	color:green;
 }
 #mobilepassport:hover{
-	color:lightgreen;
+	color:#49a84e;
 }
 #twitterstats:hover{
 	color:lightblue;

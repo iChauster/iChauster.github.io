@@ -40,16 +40,47 @@ $(document).ready(function () {
                 setTimeout(function(){$('.revealed').attr('id','awake')}, 240);
         	}
         });
+        //modal animation
+        var grid;
         $('#projectsModal').on('shown.bs.modal', function (e) {
         	console.log("shown");
-  			$('.grid').masonry({
+  			grid = $('.grid').masonry({
   				itemSelector:'.grid-item',
   				columnWidth:'.grid-sizer',
   				gutter: '.gutter-sizer',
   				percentPosition:true
-  			})
+  			});
 		})
+        $(".grid-item").hover(function () {
+            //stuff to do on mouse enter
+            console.log('hovering');
+            var r = $(this).children();
+            var color = $(this).children().attr('color'); 
+            console.log(color);
+            r.children('.projectDesc').css('background',color);
+            r.children('.inherit').css('opacity','0');
+            r.children('.projectDesc').css('width','100%');
+            setTimeout(function(){
+                if(r.children('.inherit').css('opacity') < "1"){
+                    r.children('.projectDesc').children('h6').css('display','block');
+                    grid.masonry('layout');
+                }
+            },1000)
+            setTimeout(function(){
+                if(r.children('.inherit').css('opacity')  < "1"){
+                    r.children('.projectDesc').children('h6').css('opacity','1')
+                }
+            },1200)
+        }, 
+        function () {
+            console.log("unhover");
+            $(this).children().children('.inherit').css('opacity','1');
+            $(this).children().children('.projectDesc').css('width','0%');
+            $(this).children().children('.projectDesc').children().css('opacity','0');
+            $(this).children().children('.projectDesc').children().css('display','none');
+            grid.masonry('layout');
+            //stuff to do on mouse leave
+        });
         
-        // you want to disable pointer events when the mouse leave the canvas 
 
 });
