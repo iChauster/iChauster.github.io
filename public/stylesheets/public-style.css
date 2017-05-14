@@ -341,7 +341,11 @@ ul{
 	width:50%;
 	border-color:black;
 }
+<<<<<<< HEAD
 #gradecheck, #mobilepassport, #twitterstats, #goalr, #soundmeow, #montyhacks, #innata, #wwdc{
+=======
+#gradecheck, #mobilepassport, #twitterstats, #goalr, #soundmeow, #montyhacks{
+>>>>>>> 3aa504a860e8f376424356ecd573300e0cda917d
 	color:white;
 	text-decoration: none;
 	-webkit-transition: all 1s ease-in-out;
@@ -368,12 +372,15 @@ ul{
 #montyhacks:hover{
 	color:green;
 }
+<<<<<<< HEAD
 #innata:hover{
 	color:lightgreen;
 }
 #wwdc:hover{
 	color:#FFCC00;
 }
+=======
+>>>>>>> 3aa504a860e8f376424356ecd573300e0cda917d
 .btn-outline{
 	color:white;
 	padding: 10px;
