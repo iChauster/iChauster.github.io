@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>iChauster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/stylesheets/public-style.css">
+    <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Roboto+Mono:300" rel="stylesheet" type="text/css">
+    <script src="public/javascripts/jquery-3.1.0.min.js"></script>
+    <script src="public/javascripts/public-rip.js"></script>
+    <script src="public/javascripts/bootstrap.min.js"></script>
+    <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    <meta name="theme-color" content="#2d2d2d">
+    <link rel="stylesheet" type="text/css" href="public/font-awesome/css/font-awesome.min.css">
+  </head>
+  <body id="home">
+    <div class="container">
+      <div class="header">
+        <div class="nav">
+          <h1 class="name"><a id="noline" href="/" class="raise">Ivan Chau</a></h1>
+          <ul id="primary-nav" class="nav">
+            <li class="raise"> <a id="about" data-toggle="modal" data-target="#aboutModal">about</a></li>
+            <li class="raise"> <a id="projects" data-toggle="modal" data-target="#projectsModal">projects</a></li>
+            <li class="raise"> <a id="contact" href="mailto:ivanmchau@gmail.com">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="flip">
+      <div class="mask text-vertical-center">
+        <div class="brand">
+          <h1>I</h1>
+          <h1>V</h1>
+          <h1>A</h1>
+          <h1>N</h1>
+          <h1 class="hid"><img id="p" src="public/images/dot.gif" style="width:25px; height: 25px; margin-left:-5px"></h1>
+          <div class="graph">
+            <div class="hidden">
+              <ul class="list-inline" id="linline">
+                <li class="raise"><a href="https://twitter.com/iChauster" class="link"><i id="twitter" class="fa fa-fw fa-twitter"></i></a></li>
+                <li class="raise"><a href="https://www.facebook.com/ichauster" class="link"><i id="facebook" class="fa fa-fw fa-facebook"></i></a></li>
+                <li class="raise"><a href="https://www.instagram.com/ichauster/" class="link"><i id="instagram" class="fa fa-fw fa-instagram"></i></a></li>
+                <li class="raise"><a href="https://www.linkedin.com/in/ichauster" class="link"><i id="linkedin" class="fa fa-fw fa-linkedin"></i></a></li>
+                <li class="raise"><a href="https://github.com/iChauster" class="link"><i id="github" class="fa fa-fw fa-github"></i></a></li>
+                <li class="raise"><a href="https://www.snapchat.com/add/ichauster" class="link"><i id="snapchat" class="fa fa-fw fa-snapchat-ghost"></i></a></li>
+              </ul><img id="space" src="http://66.media.tumblr.com/420da2743a4d39d79f34cba0b99118df/tumblr_inline_n93000kv711qj9aka.jpg" style="width:100%; height:50px; margin-bottom:0">
+            </div>
+          </div>
+          <h1>C</h1>
+          <h1>H</h1>
+          <h1>A</h1>
+          <h1>U</h1>
+        </div>
+      </div>
+    </div>
+    <div id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" class="modal fade">
+      <div role="document" class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
+            <h4 id="aboutLabel" class="modal-title">About Ivan</h4>
+          </div>
+          <div id="text" class="modal-body">
+            <h5>Hey There, I'm Ivan Chau. </h5>
+            <h6>I'm a rising sophomore at Montgomery High School, New Jersey, and I'm extremely interested and passionate about Computer Science. I love developing apps and products for others to use, and, more importantly, making an impact on the society I live in.</h6>
+            <h6>I've worked with iOS Development (Swift & Obj-C), Web Development in (NodeJS, Express, Jade, CSS, HTML), and also work with databases (MongoDB). I'm eager to learn more to make better and greater things!</h6>
+            <h6>Much of my time is focused on spreading my love for Computer Science with peers and students. I'm on the board for my school's Computer Science Club, and am currently proposing our first annual Hackathon, <a href="http://montyhacks.herokuapp.com">MontyHacks. </a>I highly subscribe to the idea that one of the best ways to learn things is through using and experimenting with them.</h6>
+            <h6>Aside from my time spent developing apps, I'm an avid Ultimate Frisbee player, <a href="http://play.usaultimate.org/teams/events/Eventteam/?T=P&amp;TeamId=DfkqNxBOdirU9V0mV%2fHAck9T7DayPo%2bEeV1fwhGHFog%3d">(Come Support Us!) </a>and listen to lots of music. (Daft Punk, Porter Robinson, Madeon, Dillon Francis, and Kanye West are some among my favorites.)</h6>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projectsModal" tabindex="-1" role="dialog" aria-labelledby="projectsModalLabel" class="modal fade">
+      <div role="document" id="fullDialog" class="modal-dialog">
+        <button id="projectsClose" type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
+        <h1 id="projectsLabel" class="modal-title">What I've Been Working On :</h1>
+        <div class="container">
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            <div class="gutter-sizer"></div>
+            <div class="grid-item">
+              <a id="gradecheck" href="http://github.com/ichauster/gradecheck" color="green">
+                <h5 class="inherit">GradeCheck</h5>
+                <div class="projectDesc">
+                  <h6> An iOS, NodeJS, and API application I built, centered around the Genesis gradebook platform to empower students. <hr> February 20, 2016</h6>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item"><a id="mobilepassport" href="http://github.com/dzt/mobilepassport" color="#49a84e">
+                <h5 class="inherit">MobilePassport</h5>
+                <div class="projectDesc">
+                  <h6> A platform utilizing PassportJS, NodeJS, and MongoDB to create an efficient way to register and store users. I worked on this project with my good friend Peter Soboyejo. <hr> January 15, 2016 </h6>
+                </div>
+              </a></div>
+            <div class="grid-item" ><a id="twitterstats" href="http://twitter-statistics.herokuapp.com/" color="lightblue">
+                <h5 class="inherit">Twitter-Stats</h5>
+              <div class="projectDesc">
+                  <h6> An application I created at my first hackathon, HackBCA. It authenticated Twitter users and used Twitter's API to collect statistics about your tweeting habits and top tweets. <hr> April 2, 2016</h6>
+                </div></a></div>
+            <div class="grid-item"><a id="goalr" href="http://goalr.herokuapp.com/" color="darkgrey">
+                <h5 class="inherit">Goalr</h5>
+              <div class="projectDesc">
+                  <h6>A MongoDB project used to keep track of goals, using push notifications through both a website and mobile application. I created this project with help from Brendon Ho. <hr> October 4, 2015</h6>
+                </div></a></div>
+            <div class="grid-item"><a id="soundmeow" href="http://soundmeow.herokuapp.com/" color="orange">
+                <h5 class="inherit">Soundmeow</h5>
+              <div class="projectDesc">
+                  <h6>This website authenticated a soundcloud user and allowed them to search for music in a new Google-esque interface, supplemented by images and gifs from the Giphy and Google Search APIs. <hr> October 2, 2015</h6>
+                </div></a></div>
+            <div class="grid-item"><a id="montyhacks" href="http://montyhacks.com" color="green">
+                <h5 class="inherit">Montyhacks</h5>
+              <div class="projectDesc">
+                  <h6>A hackathon at Montgomery High School I co-founded with my friends. It is our passion and mission to spread our affinity for Computer Science. <hr> June 24, 2016 </h6>
+                </div></a></div>
+            <div class="grid-item"><a id="innata" href="https://github.com/iChauster/innata" color="lightgreen">
+                <h5 class="inherit">Innata</h5>
+              <div class="projectDesc">
+                  <h6>Received Honorable Mention at PennApps XV for a financial application that also implemented OCR and image recongition to keep track of expenses. <hr> January 26, 2017 </h6>
+                </div></a></div>
+            <div class="grid-item"><a id="wwdc" href="https://developer.apple.com/wwdc/scholarships/" color="#FFCC00">
+                <h5 class="inherit">WWDC 2017</h5>
+              <div class="projectDesc">
+                  <h6>Received a scholarship to attend Apple's Worldwide Developer Conference in 2017. <hr> April 2, 2017 </h6>
+                </div></a></div>
+
+          </div>
+        </div>
+        <div class="row">
+          <button type="button" data-dismiss="modal" class="btn-outline">
+            <div id="close">Close</div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63544380-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</html>

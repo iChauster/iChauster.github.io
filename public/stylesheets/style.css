@@ -1,0 +1,410 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	background: black;
+	position: relative;
+}
+#text{
+	text-align: center;
+}
+h5{
+	font-size:20px;
+}
+h6{
+	font-size:15px;
+}
+#home{
+	background: black;
+	z-index: 2;
+	-webkit-transition: all 2s ease-in-out;
+ 	-moz-transition:all 2s ease-in-out;
+  	-o-transition:all 2s ease-in-out;
+  	transition :all 2s ease-in-out;
+}
+.container{
+	overflow: hidden;
+}
+.header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	box-sizing:border-box;
+	padding:3.125em;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.header a{
+	text-transform: uppercase;
+	color:#fff;
+	text-decoration: none;
+	font-size:.75em;
+	line-height: 1.33333em;
+	letter-spacing: .15em;
+	position:relative;
+	display: block;
+	padding:6px 0;
+	font-family: 'Pathway Gothic One', sans-serif;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+}
+#noline{
+	text-decoration: none;
+}
+
+.name{
+	font-size:22px;
+	float: left;
+	margin: 0;
+}
+#primary-nav{
+	float:right;
+	list-style: none;
+	margin:0;
+	padding:0;
+	-webkit-font-smoothing: antialiased;
+}
+#primary-nav li {
+	display:inline-block;
+	text-transform: uppercase;
+	color:#fff;
+	font-size:22px;
+	line-height: 1.33333em;
+	letter-spacing: .15em;
+	font-family: 'Pathway Gothic One', sans-serif;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#primary-nav a{
+	font-size:.75em;
+	padding: 6px 10px 0 10px;
+}
+#primary-nav a:hover{
+	background:transparent;
+}
+#primary-nav a:visited{
+	background: transparent;
+}
+#primary-nav a:active{
+	background: transparent;
+}
+
+.brand{
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: 6px;
+	font-size: 2em;
+}
+h1{
+	bottom:0px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  transition :all 0.5s ease-in-out;
+}
+h1:hover{
+	padding-bottom:20px;
+}
+.link {
+	color:white;
+}
+.graph{
+	height: 0px;
+	-webkit-transition: all 2s ease-in-out;
+  	-moz-transition:all 2s ease-in-out;
+  	-o-transition:all 2s ease-in-out;
+  	transition :all 2s ease-in-out;
+  	
+}
+.hid{
+	height:30px;
+	margin: 0;
+}
+#coll{
+	height:200px;
+}
+.mask{
+  background: url(/images/porter.gif);
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition:all 2s ease-in-out;
+  -o-transition:all 2s ease-in-out;
+  transition :all 2s ease-in-out;
+}
+
+ul{
+	padding-top:10px;
+}
+.brand:hover{
+	background: url(/images/daftpunk.gif);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.flip{
+	background:black;
+	z-index: 4;
+	width: 100%;
+	height: 100%;
+	display: table;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	background-size: cover;
+ 	-o-background-size: cover; 
+ 	-webkit-transition: background-color 2s ease-in-out;
+  	-moz-transition: background-color 2s ease-in-out;
+  	-o-transition: background-color 2s ease-in-out;
+  	transition : background-color 2s ease-in-out;
+}
+.text-vertical-center{
+	font-family: 'Pathway Gothic One', sans-serif;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color:white;
+}
+.one{
+	background: white;
+}
+.revealed{
+	height: 100%;
+	-moz-animation-name: rev;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 3s;
+
+    -webkit-animation-name: rev;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 3s;
+
+    animation-name: rev;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+
+   -webkit-transition: all 2s ease-in-out;
+  -moz-transition:all 2s ease-in-out;
+  -o-transition:all 2s ease-in-out;
+  transition :all 2s ease-in-out;
+}
+.raise{
+	bottom:0;
+	-webkit-text-fill-color: white;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+#dropdead{
+	opacity: 0;
+}
+#awake{
+	opacity: 1;
+}
+.raise:hover{
+	bottom:10px;
+	padding-top:-10px;
+}
+#twitter:hover{
+	-webkit-text-fill-color: #00aced;
+}
+#facebook:hover{
+	-webkit-text-fill-color:#3b5998;
+}
+#instagram:hover{
+	-webkit-text-fill-color:transparent;
+	background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	-webkit-background-clip:text;
+}
+#linkedin:hover{
+	-webkit-text-fill-color:#007bb6;
+}
+#github:hover{
+	-webkit-text-fill-color:#18392b;
+}
+#projectsModal{
+	background-color:#3e3e3e;
+	color:white;
+	text-align: center;
+}
+#projectsLabel{
+	-webkit-font-smoothing:antialiased;
+	padding:1em;
+}
+#projectsModal h5{
+	-webkit-font-smoothing:antialiased;
+	margin:1em;
+	bottom:0;
+	position: absolute;
+	font-family: "Pathway Gothic One", sans-serif
+}
+#projectsClose{
+	color:white;
+	padding:1em;
+	opacity: 1;
+	font-size:30px;
+}
+.grid{
+	width:100%;
+}
+.grid-item{
+	float: left;
+	width: 30%;
+	height: 100px;
+	margin-bottom: 20px;
+	display:table;
+}
+.grid-sizer{
+	width:30%;
+}
+.gutter-sizer{
+	width:5%;
+}
+.grid-item a{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	background-size:cover;
+	border:solid 1px;
+	height: 100%;
+	width:100%;
+	display:block;
+	-webkit-font-smoothing: antialiased;
+}
+.inherit{
+	color:inherit;
+}
+#fullDialog{
+	width:100%;
+}
+#gradecheck, #mobilepassport, #twitterstats, #goalr, #soundmeow, #montyhacks{
+	color:white;
+	text-decoration: none;
+	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition:all 1s ease-in-out;
+  	-o-transition:all 1s ease-in-out;
+ 	 transition :all 1s ease-in-out;
+}
+#gradecheck:hover{
+	color:green;
+}
+#mobilepassport:hover{
+	color:lightgreen;
+}
+#twitterstats:hover{
+	color:lightblue;
+}
+#goalr:hover{
+	color:darkgrey;
+}
+#soundmeow:hover{
+	color:orange;
+}
+#montyhacks:hover{
+	color:green;
+}
+.btn-outline{
+	color:white;
+	padding: 10px;
+	border: solid 1px;
+	background:transparent;
+	width: 30%;
+	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition:all 1s ease-in-out;
+  	-o-transition:all 1s ease-in-out;
+ 	 transition :all 1s ease-in-out;
+}
+.btn-outline:hover{
+	background: black;
+}
+#close{
+	font-family:"Pathway Gothic One", sans-serif;
+	-webkit-font-smoothing:antialiased;
+	text-transform: uppercase;
+}
+@-moz-keyframes rev {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes rev {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes rev {
+    0% {
+        opacity: 0;
+        height: 0%;
+    }
+    100% {
+        opacity: 1;
+        height: 100%
+    }
+}
+@media only screen and (max-width: 768px){
+	.header{
+		padding:1.25em;
+	}
+	.name{
+		float:none;
+		width:100%;
+		text-align: center;
+	}
+	#primary-nav{
+		float:none;
+		width:100%;
+		text-align: center;
+	}
+	#twitter, #facebook, #instagram, #linkedin, #github{
+		font-size: .6em;
+	}
+	#projectsModal h5{
+		font-size:0.9em;
+		letter-spacing: 0.1em;
+	}
+	.mask{
+		background: white;
+		-webkit-background-clip:text;
+	}
+	.brand:hover{
+		background: white;
+		-webkit-background-clip:text;
+	}
+	.brand h1{
+		font-size:0.4em;
+	}
+	#fullDialog{
+		margin:0;
+	}
+	.grid-sizer{
+		width:45%;
+	}
+	.gutter-sizer{
+		width:10%;
+	}
+	.grid-item{
+		width:45%;
+	}
+}
+
