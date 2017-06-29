@@ -139,6 +139,9 @@ h1:hover{
 .link {
 	color:white;
 }
+.link:hover{
+	color:white;
+}
 .graph{
 	height: 0px;
 	-webkit-transition: all 2s ease-in-out;
