@@ -23,7 +23,11 @@ h6{
 	line-height: 1.5;
 }
 .aboutText a{
-	color : #1F2457;
+	color : #00FFA2;
+	-webkit-transition: all 1s ease-in-out;
+ 	-moz-transition:all 1s ease-in-out;
+  	-o-transition:all 1s ease-in-out;
+  	transition :all 1s ease-in-out;
 }
 .aboutText a:hover{
 	color : black;
@@ -268,7 +272,7 @@ ul{
 	-webkit-text-fill-color:#007bb6;
 }
 #github:hover{
-	-webkit-text-fill-color:#18392b;
+	-webkit-text-fill-color:#FFF;
 }
 #snapchat:hover{
 	-webkit-text-fill-color:#FFFC00;
