@@ -368,7 +368,7 @@ ul{
 	width:50%;
 	border-color:black;
 }
-#gradecheck, #mobilepassport, #twitterstats, #goalr, #soundmeow, #montyhacks, #innata, #wwdc, #tabwatch{
+#gradecheck, #mobilepassport, #twitterstats, #goalr, #soundmeow, #montyhacks, #innata, #wwdc, #tabwatch, #calarie{
 	color:white;
 	text-decoration: none;
 	-webkit-transition: all 1s ease-in-out;
@@ -403,6 +403,9 @@ ul{
 }
 #tabwatch:hover{
 	color:#E81E61;
+}
+#calarie:hover{
+	color : #0084FF
 }
 .btn-outline{
 	color:white;
