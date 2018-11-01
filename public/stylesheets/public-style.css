@@ -165,10 +165,9 @@ h1:hover{
 	height:200px;
 }
 .mask{
-  background: url(/public/images/porter.gif);
+	background:white;
+	-webkit-background-clip:text;
   background-attachment: fixed;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
   font-size: 2em;
   font-weight: bold;
   text-align: center;
@@ -184,7 +183,7 @@ ul{
 }
 .brand:hover{
 	background: url("/public/images/daftpunk.gif");
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: white;
 	-webkit-background-clip: text;
 }
 .flip{
