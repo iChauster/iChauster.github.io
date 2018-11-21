@@ -367,7 +367,8 @@ ul{
 	width:50%;
 	border-color:black;
 }
-#gradecheck, #mobilepassport, #twitterstats, #goalr, #soundmeow, #montyhacks, #innata, #wwdc, #tabwatch, #calarie{
+#gradecheck, #mobilepassport, #twitterstats, #goalr, #soundmeow, #montyhacks, #innata, #wwdc, #tabwatch, #calarie, 
+#supermaritan, #homegrown{
 	color:white;
 	text-decoration: none;
 	-webkit-transition: all 1s ease-in-out;
@@ -405,6 +406,12 @@ ul{
 }
 #calarie:hover{
 	color : #0084FF
+}
+#supermaritan:hover{
+	color : #91b0e2;
+}
+#homegrown:hover{
+	color: #fff;
 }
 .btn-outline{
 	color:white;
