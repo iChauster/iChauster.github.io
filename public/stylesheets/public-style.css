@@ -368,7 +368,7 @@ ul{
 	border-color:black;
 }
 #gradecheck, #mobilepassport, #twitterstats, #goalr, #soundmeow, #montyhacks, #innata, #wwdc, #tabwatch, #calarie, 
-#supermaritan, #homegrown{
+#supermaritan, #homegrown, #wwdc19 {
 	color:white;
 	text-decoration: none;
 	-webkit-transition: all 1s ease-in-out;
@@ -412,6 +412,13 @@ ul{
 }
 #homegrown:hover{
 	color: #fff;
+}
+#wwdc19:hover{
+	color:#121a2f;
+}
+#wwdc19 h6, hr{
+	color:#fff !important;
+	border-color: #fff !important;
 }
 .btn-outline{
 	color:white;
