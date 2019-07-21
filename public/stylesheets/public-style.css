@@ -416,7 +416,7 @@ ul{
 #wwdc19:hover{
 	color:#121a2f;
 }
-#wwdc19 h6, hr{
+#wwdc19 h6, #wwdc hr{
 	color:#fff !important;
 	border-color: #fff !important;
 }
