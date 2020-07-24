@@ -8,18 +8,26 @@ html,body {
 #text{
 	text-align: center;
 }
+.modal-header {
+	padding: 10px 10px 0 0 !important;
+}
+
 h5{
 	font-size:20px;
 }
 h6{
 	font-size:15px;
 }
+.aboutText {
+	font-family:'Cutive-Mono', monospace;
+	text-align: left;
+}
 .aboutText h5{
 	font-size:20px !important;
+	font-weight: bold;
 }
 .aboutText h6{
 	font-size:16px !important;
-	font-family:helvetica;
 	line-height: 1.5;
 }
 .aboutText a{
@@ -119,6 +127,10 @@ h6{
 }
 #primary-nav a:active{
 	background: transparent;
+}
+
+#p {
+	cursor: pointer;
 }
 
 .brand{
@@ -415,6 +427,20 @@ ul{
 }
 #wwdc19:hover{
 	color:#121a2f;
+}
+#flulytics:hover{
+	color:#111;
+}
+
+#flulytics h6 {
+	color: #fff !important;
+	border-color: #000 !important;
+}
+#bloomberg:hover {
+	color:#000;
+}
+#bloomberg h6 {
+	color: #fff !important;
 }
 #wwdc19 h6, #wwdc hr{
 	color:#fff !important;

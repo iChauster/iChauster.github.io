@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/stylesheets/public-style.css">
     <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Roboto+Mono:300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Pathway+Gothic+One&family=Roboto+Mono&display=swap" rel="stylesheet">
     <script src="public/javascripts/jquery-3.1.0.min.js"></script>
     <script src="public/javascripts/public-rip.js"></script>
     <script src="public/javascripts/bootstrap.min.js"></script>
@@ -55,21 +55,19 @@
     </div>
     <div id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" class="modal fade">
       <div role="document" class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
+        <div class="modal-content" style = "border-radius: 0">
+          <div class="modal-header" style="border-bottom:none">
             <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
-            <h4 id="aboutLabel" class="modal-title">About Ivan</h4>
           </div>
           <div id="text" class="modal-body">
             <div class = "aboutText">
             <h5>Hey There, I'm Ivan Chau! </h5>
-            <h6>I'm a freshman at Columbia University interested in Computer Science and Software Engineering. I love developing apps and products for others to use, and, more importantly, making an impact on the society I live in.</h6>
-            <h6>I've worked with native mobile, web, and backend development, and am interested in Artificial Intelligence. I'm eager to learn more to make better and greater things!</h6>
-            <h6>Much of my time is focused on spreading my love for Computer Science with peers and students. At Montgomery High School, I was the Vice-President for my school's Computer Science Club, and also co-founded our hackathon, <a href="http://montyhacks.com">MontyHacks. </a>I highly subscribe to the idea that one of the best ways to learn things is through using and experimenting with them!</h6>
-            <h6>Aside from my time spent developing apps, I'm an avid Ultimate Frisbee player, <a href="http://www.columbia.edu/cu/ultimate/">I play for Columbia's Uptown Local!</a> and listen to lots of music. (Daft Punk, Porter Robinson, Madeon, Mura Masa, Childish Gambino, and Kanye West are some among my favorites.)</h6>
+            <h6>I'm a sophomore at Columbia University majoring in Computer Science and minoring in Applied Math.</h6>
+            <h6>I love writing code and making ideas come to life.</h6>
+            <h6>Take a look around and don't hesitate to <a href = "mailto:ivanmchau@gmail.com"> reach out!</a></h6>
           </div>
           </div>
-          <div class="modal-footer">
+          <div class="modal-footer" style = "border-top: none">
             <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
           </div>
         </div>
@@ -87,57 +85,28 @@
               <a id="gradecheck" href="http://github.com/ichauster/gradecheck" color="green">
                 <h5 class="inherit">GradeCheck</h5>
                 <div class="projectDesc">
-                  <h6> An iOS, NodeJS, and API application I built, centered around the Genesis gradebook platform to empower students. <hr> February 20, 2016</h6>
+                  <h6>Created an iOS App and Genesis Gradebook API to empower students at Montgomery. Available on the App Store!<hr> February 20, 2016</h6>
                 </div>
               </a>
             </div>
-            <div class="grid-item"><a id="mobilepassport" href="http://github.com/dzt/mobilepassport" color="#49a84e">
-                <h5 class="inherit">MobilePassport</h5>
-                <div class="projectDesc">
-                  <h6> A platform utilizing PassportJS, NodeJS, and MongoDB to create an efficient way to register and store users. I worked on this project with my good friend Peter Soboyejo. <hr> January 15, 2016 </h6>
-                </div>
-              </a></div>
-            <div class="grid-item" ><a id="twitterstats" href="http://twitter-statistics.herokuapp.com/" color="lightblue">
-                <h5 class="inherit">Twitter-Stats</h5>
-              <div class="projectDesc">
-                  <h6> An application I created at my first hackathon, HackBCA. It authenticated Twitter users and used Twitter's API to collect statistics about your tweeting habits and top tweets. <hr> April 2, 2016</h6>
-                </div></a></div>
-            <div class="grid-item"><a id="goalr" href="http://goalr.herokuapp.com/" color="darkgrey">
-                <h5 class="inherit">Goalr</h5>
-              <div class="projectDesc">
-                  <h6>A MongoDB project used to keep track of goals, using push notifications through both a website and mobile application. I created this project with help from Brendon Ho. <hr> October 4, 2015</h6>
-                </div></a></div>
-            <div class="grid-item"><a id="soundmeow" href="http://soundmeow.herokuapp.com/" color="orange">
-                <h5 class="inherit">Soundmeow</h5>
-              <div class="projectDesc">
-                  <h6>This website authenticated a soundcloud user and allowed them to search for music in a new Google-esque interface, supplemented by images and gifs from the Giphy and Google Search APIs. <hr> October 2, 2015</h6>
-                </div></a></div>
             <div class="grid-item"><a id="montyhacks" href="http://montyhacks.com" color="green">
                 <h5 class="inherit">Montyhacks</h5>
               <div class="projectDesc">
-                  <h6>A hackathon at Montgomery High School I co-founded with my friends. It is our passion and mission to spread our affinity for Computer Science. <hr> June 24, 2016 </h6>
+                  <h6>A hackathon at Montgomery High School I co-founded with my friends! Reached over 600 students across the tri-state over 3 years.<hr> June 24, 2016 </h6>
                 </div></a></div>
-            <div class="grid-item"><a id="innata" href="https://github.com/iChauster/innata" color="lightgreen">
-                <h5 class="inherit">Innata</h5>
-              <div class="projectDesc">
-                  <h6>Received Honorable Mention at PennApps XV for a financial application that also implemented OCR and image recongition to keep track of expenses. <hr> January 26, 2017 </h6>
-                </div></a></div>
-            <div class="grid-item"><a id="wwdc" href="https://developer.apple.com/wwdc/scholarships/" color="#FFCC00">
-                <h5 class="inherit">WWDC 2017</h5>
-              <div class="projectDesc">
-                  <h6>Received a scholarship to attend Apple's Worldwide Developer Conference in 2017. <hr> April 2, 2017 </h6>
-                </div></a></div>
-            <div class="grid-item"><a id="tabwatch" href="https://devpost.com/software/nano" color="#E81E61">
-                <h5 class="inherit">TabWatch</h5>
-              <div class="projectDesc">
-                  <h6>A chrome extension written in MHacks Nano (Top 12 Prize), allowing users to visualize, control, and be notified about their usage on the web. Worked on this project with Brendon Ho. <hr> June 21, 2017 </h6>
-                </div></a></div>
-            <div class="grid-item"><a id="calarie" href="https://devpost.com/software/calarie" color="#0084FF">
-                <h5 class="inherit">CalARie</h5>
-              <div class="projectDesc">
-                  <h6>An AR Application to act as a medium of knowledge between you and your food, using Google Vision APIs and the USDA Government API. <hr> September 24, 2017 </h6>
-                </div></a></div>
-             <div class="grid-item"><a id="supermaritan" href="https://devpost.com/software/supermaritan" color="#91b0e2">
+            <div class="grid-item"><a id="flulytics" href="https://devpost.com/software/in-b4-uenza" color="#111">
+              <h5 class="inherit">Flulytics</h5>
+            <div class="projectDesc">
+                <h6>At HackPrinceton, helped create probability distributions for mutation sites on virus genomes. Used SKLearn to predict strain severity with pandemic data. Won 2nd place!<hr style = "border-color: #fff"> November 8, 2019 </h6>
+              </div></a>
+            </div>
+            <div class="grid-item"><a id="bloomberg" href="" color="#000">
+              <h5 class="inherit">Bloomberg</h5>
+            <div class="projectDesc">
+                <h6>Completed Software Internships at Bloomberg, exploring areas like NLP, anamoly detection and high-volume data streaming, while learning how to write maintainable and clean code.<hr style = "border-color: #fff"> 2018-2020 </h6>
+              </div></a>
+            </div>
+            <div class="grid-item"><a id="supermaritan" href="https://devpost.com/software/supermaritan" color="#91b0e2">
                 <h5 class="inherit">Supermaritan</h5>
               <div class="projectDesc">
                   <h6>A mobile application promoting communities and samaritans to aid in emergency response, in addition to location analytics. PennApps Top 30.<hr> September 7, 2018 </h6>
@@ -147,11 +116,54 @@
             <div class="projectDesc">
                 <h6>Hardware and mobile app to promote sustainable futures by providing a list of plants to grow based on environmental factors, soil moisture, and more. Also provided recipes and tutorials for planting. HackPrinceton Most Sustiainable, Facebook Data for Social Good.<hr> November 9, 2018 </h6>
               </div></a></div>
-             <div class="grid-item"><a id="wwdc19" href="https://developer.apple.com/wwdc/scholarships/" color="#121a2f">
+              <div class="grid-item"><a id="wwdc19" href="https://developer.apple.com/wwdc/scholarships/" color="#121a2f">
               <h5 class="inherit">WWDC19</h5>
             <div class="projectDesc">
                 <h6>Received another scholarship to attend Apple's Worldwide Developer Conference in 2019. Met some great developers and saw Apple's developments (SwiftUI, CoreML) <hr> June 3, 2018 </h6>
-              </div></a></div>
+              </div></a>
+            </div>
+            <div class="grid-item"><a id="innata" href="https://github.com/iChauster/innata" color="lightgreen">
+                <h5 class="inherit">Innata</h5>
+              <div class="projectDesc">
+                  <h6>A financial receipt-tracking information using iOS OCR Frameworks and Google Cloud Platform's image recognition. Received Honorable Mention at PennApps XV. <hr> January 26, 2017 </h6>
+                </div></a></div>
+            <div class="grid-item"><a id="wwdc" href="https://developer.apple.com/wwdc/scholarships/" color="#FFCC00">
+                <h5 class="inherit">WWDC 2017</h5>
+              <div class="projectDesc">
+                  <h6>Received a scholarship to attend Apple's Worldwide Developer Conference in 2017. <hr> April 2, 2017 </h6>
+                </div></a></div>
+            <div class="grid-item"><a id="tabwatch" href="https://devpost.com/software/nano" color="#E81E61">
+                <h5 class="inherit">TabWatch</h5>
+              <div class="projectDesc">
+                  <h6>A chrome extension written at MHacks Nano (Top 12 Prize), allowing users to visualize, control, and be notified about their usage on the web. Worked on this project with Brendon Ho. <hr> July 9, 2017 </h6>
+                </div></a></div>
+            <div class="grid-item"><a id="calarie" href="https://devpost.com/software/calarie" color="#0084FF">
+                <h5 class="inherit">CalARie</h5>
+              <div class="projectDesc">
+                  <h6>An AR Application to act as a medium of knowledge between you and your food, using Google Vision APIs and the USDA Government API. <hr> September 24, 2017 </h6>
+                </div></a></div>
+            <div class="grid-item"><a id="mobilepassport" href="http://github.com/dzt/mobilepassport" color="#49a84e">
+                <h5 class="inherit">MobilePassport</h5>
+                <div class="projectDesc">
+                  <h6> A platform utilizing PassportJS, NodeJS, and MongoDB to create an efficient way to register and store users. I worked on this project with my good friend Peter Soboyejo. <hr> January 15, 2016 </h6>
+                </div>
+              </a></div>
+            <div class="grid-item" ><a id="twitterstats" href="http://twitter-statistics.herokuapp.com/" color="lightblue">
+                <h5 class="inherit">Twitter-Stats</h5>
+              <div class="projectDesc">
+                  <h6> An application I created at my first hackathon, HackBCA. The website used Twitter's API to collect statistics about your tweeting habits and top tweets. <hr> April 2, 2016</h6>
+                </div></a></div>
+            <div class="grid-item"><a id="goalr" href="http://goalr.herokuapp.com/" color="darkgrey">
+                <h5 class="inherit">Goalr</h5>
+              <div class="projectDesc">
+                  <h6>A MongoDB project used to keep track of goals, using push notifications through both a website and mobile application. I created this project with help from Brendon Ho. <hr> October 4, 2015</h6>
+                </div></a></div>
+            <div class="grid-item"><a id="soundmeow" href="http://soundmeow.herokuapp.com/" color="orange">
+                <h5 class="inherit">Soundmeow</h5>
+              <div class="projectDesc">
+                  <h6>This website allowed users to search for music in a Google-esque interface, supplemented by images and gifs from the Giphy and Google Search APIs, while playing music from the Soundcloud API.<hr> October 2, 2015</h6>
+                </div></a></div>
+            
           </div>
         </div>
         <div class="row">
